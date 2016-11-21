@@ -1,6 +1,6 @@
 /**
  * Created by 1405741 on 21/11/2016.
- */
+
 var http = require('http')
 var port = process.env.PORT || 1337;
 
@@ -26,7 +26,7 @@ http.createServer(function(request, response) {
     });
 }).listen(port);
 
-/*
+
 var http = require('http')
 var port = process.env.PORT || 1337;
 
@@ -48,3 +48,5 @@ var server = http.createServer(function(request, response) {
 server.listen(port);
 console.log("Server is listening");
 */
+
+require('./connect');
