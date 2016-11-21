@@ -18,9 +18,9 @@ http.createServer(function(request, response) {
 
 
             // do some work here with the database.
+//
 
 
-            
             // Get the documents collection
             var collection = db.collection('users');
 
