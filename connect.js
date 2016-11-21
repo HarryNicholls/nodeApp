@@ -7,3 +7,5 @@ var mongodb = require('mongodb');
 var http = require('http');
 //setup our port
 var port = process.env.PORT || 1337;
+var url = 'mongodb://<dbuser>:<dbpassword>@ds050879.mlab.com:50879/1405741';
+var MongoClient = mongodb.MongoClient;
